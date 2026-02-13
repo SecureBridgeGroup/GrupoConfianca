@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/GrupoConfianca/', // Mesma subpasta do GitHub
+  base: '/GrupoConfianca/', // Isso faz o Vite buscar o index.css e main.tsx no lugar certo
 });
