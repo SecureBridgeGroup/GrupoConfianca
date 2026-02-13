@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/GrupoConfianca/', // nome EXATO do repositório
-})
+  base: '/GrupoConfianca/', // Mesma subpasta do GitHub
+});
